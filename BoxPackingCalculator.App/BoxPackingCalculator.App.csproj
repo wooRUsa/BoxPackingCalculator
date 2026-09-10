@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoxPackingCalculator.Core\BoxPackingCalculator.Core.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+
+    <!-- 사용자에게 보이는 프로그램 정보 -->
+    <AssemblyName>BoxPackingCalculator</AssemblyName>
+    <Product>제품 포장 계산기</Product>
+    <Title>제품 포장 계산기</Title>
+    <Description>제품 주문 수량을 기반으로 포장 계획과 박스 수량을 계산하는 사내 업무용 프로그램</Description>
+    <Company>Warehouse Packing</Company>
+    
+    <!-- 버전 정보 -->
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <InformationalVersion>1.0.1</InformationalVersion>
+
+    <ApplicationIcon>Assets\BoxPackingCalculator.ico</ApplicationIcon>
+
+  </PropertyGroup>
+
+</Project>

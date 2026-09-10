@@ -1,0 +1,28 @@
+# Rider / JetBrains
+.idea/
+*.sln.DotSettings.user
+
+# Visual Studio / 사용자 설정
+.vs/
+*.user
+*.suo
+
+# .NET 빌드 결과
+**/bin/
+**/obj/
+
+# 테스트 결과
+TestResults/
+*.trx
+
+# Publish / 배포 결과물
+/publish/
+/release/
+
+# 로그 / 임시 파일
+*.log
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,155 @@
+﻿<UserControl x:Class="BoxPackingCalculator.App.Views.PackingPrintView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:views="clr-namespace:BoxPackingCalculator.App.Views">
+
+    <!--
+        A4 세로 기준
+        WPF 96 DPI에서 약 794 × 1123
+        실제 프린터의 인쇄 가능 영역은 PrintDialog에서 맞춤
+    -->
+    <Border
+        Width="794"
+        Height="1123"
+        Padding="40"
+        Background="White">
+
+        <StackPanel>
+
+            <!-- 페이지 제목 -->
+            <Grid Margin="0,0,0,24">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+
+                <!-- 제목 -->
+                <TextBlock
+                    Grid.Column="0"
+                    Text="포장 계산 결과"
+                    FontSize="26"
+                    FontWeight="Bold"
+                    VerticalAlignment="Center"
+                    Margin="0,0,28,0"/>
+
+
+                <!-- 출하 정보 -->
+                <WrapPanel
+                    Grid.Column="1"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Margin="0,0,20,0">
+
+                    <TextBlock
+                        Margin="0,0,24,0"
+                        FontSize="13">
+
+                        <Run
+                            Text="행선지: "
+                            FontWeight="SemiBold"/>
+
+                        <Run
+                            Text="{Binding ShippingDestination}"/>
+
+                    </TextBlock>
+
+
+                    <TextBlock
+                        FontSize="13">
+
+                        <Run
+                            Text="인보이스 번호: "
+                            FontWeight="SemiBold"/>
+
+                        <Run
+                            Text="{Binding InvoiceNumber}"/>
+
+                    </TextBlock>
+
+                </WrapPanel>
+
+
+                <!-- 페이지 번호 -->
+                <TextBlock
+                    Grid.Column="2"
+                    VerticalAlignment="Center"
+                    Foreground="Gray">
+
+                    <Run Text="{Binding PageNumber}"/>
+                    <Run Text=" 페이지"/>
+
+                </TextBlock>
+
+            </Grid>
+
+
+            <!-- 박스 규격별 카드 -->
+            <ItemsControl
+                ItemsSource="{Binding Groups}">
+
+                <ItemsControl.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <views:PackingPrintGroupView/>
+
+                    </DataTemplate>
+
+                </ItemsControl.ItemTemplate>
+
+            </ItemsControl>
+
+
+            <!-- 마지막 페이지 전체 합계 + 혼합박스 상세 -->
+            <ContentControl
+                Content="{Binding Summary}">
+
+                <ContentControl.Style>
+
+                    <Style TargetType="ContentControl">
+
+                        <Setter
+                            Property="Visibility"
+                            Value="Visible"/>
+
+                        <Style.Triggers>
+
+                            <!-- Summary가 없는 일반 페이지에서는
+                     공간 자체를 완전히 제거 -->
+                            <DataTrigger
+                                Binding="{Binding Summary}"
+                                Value="{x:Null}">
+
+                                <Setter
+                                    Property="Visibility"
+                                    Value="Collapsed"/>
+
+                            </DataTrigger>
+
+                        </Style.Triggers>
+
+                    </Style>
+
+                </ContentControl.Style>
+
+
+                <ContentControl.ContentTemplate>
+
+                    <DataTemplate>
+
+                        <views:PackingPrintSummaryView/>
+
+                    </DataTemplate>
+
+                </ContentControl.ContentTemplate>
+
+            </ContentControl>
+
+        </StackPanel>
+
+    </Border>
+
+</UserControl>

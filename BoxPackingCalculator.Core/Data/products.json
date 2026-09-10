@@ -1,0 +1,324 @@
+[
+  {
+    "id": "P001",
+    "name": "31.3(COVER RING)",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 6,
+    "fullBoxWeightKg": 13.0
+  },
+  {
+    "id": "P002",
+    "name": "19.83(SHIELD RING)",
+    "boxId": "BOX_056_058_057",
+    "capacityPerBox": 7,
+    "fullBoxWeightKg": 15.5
+  },
+  {
+    "id": "P003",
+    "name": "G61",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 10.0
+  },
+  {
+    "id": "P004",
+    "name": "G52",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 8.0
+  },
+  {
+    "id": "P005",
+    "name": "SI-362 (6.2T)",
+    "boxId": "BOX_051_052_060",
+    "capacityPerBox": 8,
+    "fullBoxWeightKg": 0
+  },
+  {
+    "id": "P006",
+    "name": "회오리 FOCUS RING",
+    "boxId": "BOX_049_050_050",
+    "capacityPerBox": 8,
+    "fullBoxWeightKg": 7.0
+  },
+  {
+    "id": "P007",
+    "name": "HER(HOT EDGE RING)",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 9.0
+  },
+  {
+    "id": "P008",
+    "name": "INNER COVER RING(합성)",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 6,
+    "fullBoxWeightKg": 0
+  },
+  {
+    "id": "P009",
+    "name": "WAP BODY",
+    "boxId": "BOX_065_067_052",
+    "capacityPerBox": 4,
+    "fullBoxWeightKg": 20.0
+  },
+  {
+    "id": "P010",
+    "name": "WAP RING",
+    "boxId": "BOX_063_063_057",
+    "capacityPerBox": 8,
+    "fullBoxWeightKg": 13.5
+  },
+  {
+    "id": "P011",
+    "name": "PCR RING H",
+    "boxId": "BOX_065_067_052",
+    "capacityPerBox": 7,
+    "fullBoxWeightKg": 15.0
+  },
+  {
+    "id": "P012",
+    "name": "UEL -JK",
+    "boxId": "BOX_065_067_052",
+    "capacityPerBox": 5,
+    "fullBoxWeightKg": 22.0
+  },
+  {
+    "id": "P013",
+    "name": "COVER SCREW",
+    "boxId": "BOX_065_067_052",
+    "capacityPerBox": 0,
+    "fullBoxWeightKg": 0
+  },
+  {
+    "id": "P014",
+    "name": "P SERIESE COVER(FLH 321)_일반",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 6,
+    "fullBoxWeightKg": 10.0
+  },
+  {
+    "id": "P015",
+    "name": "P SERIESE TOP(합성)",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 8.0
+  },
+  {
+    "id": "P016",
+    "name": "P SERIESE MIDDLE(합성)",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 9.0
+  },
+  {
+    "id": "P017",
+    "name": "P SERIESE COVER(합성)",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 6,
+    "fullBoxWeightKg": 10.0
+  },
+  {
+    "id": "P018",
+    "name": "GND RING QUARTZ",
+    "boxId": "BOX_056_058_057",
+    "capacityPerBox": 7,
+    "fullBoxWeightKg": 0
+  },
+  {
+    "id": "P019",
+    "name": "INNER COVER RING(003)_Flex 4종",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 8.0
+  },
+  {
+    "id": "P020",
+    "name": "OUTER COVER RING",
+    "boxId": "BOX_056_058_057",
+    "capacityPerBox": 8,
+    "fullBoxWeightKg": 10.5
+  },
+  {
+    "id": "P021",
+    "name": "INNER ELECTRODE(이너 전극)",
+    "boxId": "",
+    "capacityPerBox": 0,
+    "fullBoxWeightKg": 0
+  },
+  {
+    "id": "P022",
+    "name": "OUTER ELECTRODE(아우터 전극)",
+    "boxId": "",
+    "capacityPerBox": 0,
+    "fullBoxWeightKg": 0
+  },
+  {
+    "id": "P023",
+    "name": "C-SECTION(대구경,씨시라우드)",
+    "boxId": "BOX_070_070_041",
+    "capacityPerBox": 3,
+    "fullBoxWeightKg": 18.0
+  },
+  {
+    "id": "P024",
+    "name": "4Z-H45SD(4.5T FOCUS RING)",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 6,
+    "fullBoxWeightKg": 9.5
+  },
+  {
+    "id": "P025",
+    "name": "QUARTZ BLOCK",
+    "boxId": "",
+    "capacityPerBox": 0,
+    "fullBoxWeightKg": 0
+  },
+  {
+    "id": "P026",
+    "name": "SINGLE RING MESA",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 15.0
+  },
+  {
+    "id": "P027",
+    "name": "SINGLE RING",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 16.0
+  },
+  {
+    "id": "P028",
+    "name": "SINGLE RING(T-055)",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 16.0
+  },
+  {
+    "id": "P029",
+    "name": "SINGLE RING(T-062)",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 18.0
+  },
+  {
+    "id": "P030",
+    "name": "SINGLE RING(T-077)",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 0
+  },
+  {
+    "id": "P031",
+    "name": "INNER SHIELD RING",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 10.5
+  },
+  {
+    "id": "P032",
+    "name": "TOP-NAG",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 9.0
+  },
+  {
+    "id": "P033",
+    "name": "BTM-NAG",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 6,
+    "fullBoxWeightKg": 13.5
+  },
+  {
+    "id": "P034",
+    "name": "E-COVER",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 13.5
+  },
+  {
+    "id": "P035",
+    "name": "SI-364(6.7T)",
+    "boxId": "BOX_051_052_060",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 13.0
+  },
+  {
+    "id": "P036",
+    "name": "슬리브 138",
+    "boxId": "",
+    "capacityPerBox": 8,
+    "fullBoxWeightKg": 0
+  },
+  {
+    "id": "P037",
+    "name": "슬리브 160",
+    "boxId": "",
+    "capacityPerBox": 8,
+    "fullBoxWeightKg": 0
+  },
+  {
+    "id": "P038",
+    "name": "SI GND RING",
+    "boxId": "BOX_069_070_041",
+    "capacityPerBox": 3,
+    "fullBoxWeightKg": 17.0
+  },
+  {
+    "id": "P039",
+    "name": "5xx",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 9.0
+  },
+  {
+    "id": "P040",
+    "name": "R3 (이와테)",
+    "boxId": "BOX_066_073_062",
+    "capacityPerBox": 1,
+    "fullBoxWeightKg": 48.0
+  },
+  {
+    "id": "P041",
+    "name": "DRM3 인슐레이터링",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 6,
+    "fullBoxWeightKg": 12.0
+  },
+  {
+    "id": "P042",
+    "name": "ELGLOY GASKET",
+    "boxId": "BOX_046_057_060",
+    "capacityPerBox": 100,
+    "fullBoxWeightKg": 10.0
+  },
+  {
+    "id": "P043",
+    "name": "Si 6.7T EDGE RING",
+    "boxId": "BOX_051_051_060",
+    "capacityPerBox": 10,
+    "fullBoxWeightKg": 11.0
+  },
+  {
+    "id": "P044",
+    "name": "커플링 쿼츠",
+    "boxId": "BOX_050_051_053",
+    "capacityPerBox": 6,
+    "fullBoxWeightKg": 8.0
+  },
+  {
+    "id": "P045",
+    "name": "55B 제네레이터",
+    "boxId": "",
+    "capacityPerBox": 0,
+    "fullBoxWeightKg": 84.0
+  },
+  {
+    "id": "P046",
+    "name": "200A",
+    "boxId": "",
+    "capacityPerBox": 0,
+    "fullBoxWeightKg": 46.0
+  }
+]
